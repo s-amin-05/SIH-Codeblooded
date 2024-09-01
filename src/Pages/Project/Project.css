@@ -1,0 +1,29 @@
+.title h1{
+    font-size:x-large;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.title .container{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    color: grey;
+}
+.title p{
+    margin-left: 20px;
+}
+.description{
+    margin-left: 20px;
+    color: grey;
+}
+.AmtAndTime{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: var(--ws-14x);
+    row-gap: var(--ws-8x);
+}
+.skillList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
